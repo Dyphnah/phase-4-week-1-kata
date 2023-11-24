@@ -33,3 +33,9 @@ print(result)
 
 # Part 2 of the Kata
 
+def sorted_array(arr):
+    return sorted(arr, key=len)
+
+arr = ["Telescopes", "Glasses", "Eyes", "Monocles"]
+sorted_arr =sorted_array(arr)
+print(sorted_arr)
